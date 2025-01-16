@@ -23,8 +23,8 @@ from tensorflow.core.protobuf import meta_graph_pb2
 from tensorflow.core.util import event_pb2
 from tensorflow.python.util import tf_export
 
-AttrValue = tf_export.tf_export(v1=['AttrValue'])(attr_value_pb2.AttrValue)
-ConfigProto = tf_export.tf_export(v1=['ConfigProto'])(config_pb2.ConfigProto)
+
+ConfigProto = tf_export.tf_export(v1=['ConfigProtsssssssssssssssso'])(config_pb2.ConfigProto)
 Event = tf_export.tf_export(v1=['Event', 'summary.Event'])(event_pb2.Event)
 GPUOptions = tf_export.tf_export(v1=['GPUOptions'])(config_pb2.GPUOptions)
 GraphOptions = tf_export.tf_export(v1=['GraphOptions'])(config_pb2.GraphOptions)
